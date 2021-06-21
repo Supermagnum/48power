@@ -1,4 +1,4 @@
-19239068404360542
+19240692645965542
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -77902,6 +77902,13 @@ Teensy41
 0
 67
 67
+Teensy
+WQFN-16_EP_3.15x3.15_Pitch0.5mm
+16-Pin WQFN With Wettable Flanks RTE Package 
+
+0
+24
+17
 Teensy
 holes
 
