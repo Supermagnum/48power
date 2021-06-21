@@ -9,5 +9,8 @@ All component values is on the pdf file:
 https://github.com/Supermagnum/48power/blob/main/supply.pdf
 There is only one SMD component.
 
+PCB board dimensions:
+https://raw.githubusercontent.com/Supermagnum/48power/main/dimentions.png
+
 Aisler PCB:
 https://aisler.net/p/QQVLMIWH
