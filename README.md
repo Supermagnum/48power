@@ -2,9 +2,6 @@
 A small PCB that supplies +48 volt phantom power to a balanced audio system. It also has audio out to mono headphone.
 It uses a LM51571QRTERQ1 to boost the voltage from a 9V battery to +48 V and a Hammond Manufacturing 108F Audio transformer.
 
-LM386 datasheet:
-https://www.ti.com/lit/ds/symlink/lm386.pdf
-
 Datasheet for the transformer:
 https://github.com/Supermagnum/48power/blob/main/108F(1).pdf
 
@@ -14,7 +11,11 @@ https://github.com/Supermagnum/48power/blob/main/lm51571-q1.pdf
 Component selection according to Texas Instruments calculator:
 https://raw.githubusercontent.com/Supermagnum/48power/main/WBSchematicXLM5157QRTERQ1.svg
 
-Now also with a small mono amplifier, with adjustable gain ( potentiometer ).
+Now also with a small mono amplifier, with adjustable volume ( potentiometer ).
+
+LM386 datasheet:
+https://github.com/Supermagnum/48power/blob/main/lm386(2).pdf
+
 
 Please use metal film resistors, 1% tolerance or better.
 High quality capacitors, audio grade ceramic X7R or better.
