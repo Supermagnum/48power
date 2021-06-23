@@ -13,65 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R3
-U 1 1 60C4F601
-P 6050 3350
-F 0 "R3" V 5843 3350 50  0000 C CNN
-F 1 "6.81K" V 5934 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5980 3350 50  0001 C CNN
-F 3 "~" H 6050 3350 50  0001 C CNN
-	1    6050 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 60C51D2E
-P 6500 3350
-F 0 "R4" V 6293 3350 50  0000 C CNN
-F 1 "6.81K" V 6384 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6430 3350 50  0001 C CNN
-F 3 "~" H 6500 3350 50  0001 C CNN
-	1    6500 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6650 3350 6650 2800
-Wire Wire Line
-	6650 2800 6350 2800
-Wire Wire Line
-	5900 3350 5900 3100
 Wire Wire Line
 	3550 2950 4150 2950
 Wire Wire Line
 	4150 2950 4150 2900
-Wire Wire Line
-	5550 2900 5550 3100
-Wire Wire Line
-	5550 3100 5900 3100
-Connection ~ 5900 3100
-$Comp
-L Device:C C6
-U 1 1 60C77EFA
-P 5200 2900
-F 0 "C6" V 4948 2900 50  0000 C CNN
-F 1 "22nF" V 5039 2900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 5238 2750 50  0001 C CNN
-F 3 "~" H 5200 2900 50  0001 C CNN
-	1    5200 2900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5550 2900 5350 2900
-Wire Wire Line
-	5700 2500 5700 2900
-Wire Wire Line
-	5700 2900 6350 2900
-Wire Wire Line
-	6350 2900 6350 2800
-Connection ~ 6350 2800
-Wire Wire Line
-	6350 2800 6250 2800
 $Comp
 L power:GND #PWR02
 U 1 1 60C7FA89
@@ -109,19 +54,6 @@ F 3 "9V battery holder" V 1100 4300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1250 4500 1250 5050
-Wire Wire Line
-	5350 2500 5700 2500
-$Comp
-L Device:C C5
-U 1 1 60C76CC6
-P 5200 2500
-F 0 "C5" V 4948 2500 50  0000 C CNN
-F 1 "22nF" V 5039 2500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 5238 2350 50  0001 C CNN
-F 3 "~" H 5200 2500 50  0001 C CNN
-	1    5200 2500
-	0    1    1    0   
-$EndComp
 Text Notes 7150 6750 0    50   ~ 0
 Balanced power supply with mono headphone output jack.
 $Comp
@@ -158,13 +90,9 @@ F 3 "~" H 6550 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6250 2300 6250 2800
-Wire Wire Line
 	6550 2500 6550 2300
 Text Notes 5650 1200 2    50   ~ 0
 Audio out
-Wire Wire Line
-	5900 2300 5900 3100
 $Comp
 L Connector:Conn_01x01_Female J6
 U 1 1 60C33F4A
@@ -209,8 +137,6 @@ F 3 "~" H 2000 6900 50  0001 C CNN
 	1    2000 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 3350 6250 3350
 $Comp
 L supply-rescue:LM5157-Keyboard U1
 U 1 1 60D086D9
@@ -579,9 +505,6 @@ Connection ~ 7850 4200
 Wire Wire Line
 	6250 3650 6250 3350
 Connection ~ 8500 4200
-Connection ~ 6250 3350
-Wire Wire Line
-	6250 3350 6350 3350
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 60D7393D
@@ -728,8 +651,8 @@ $Comp
 L Amplifier_Audio:LM386 U2
 U 1 1 60D34ED9
 P 3400 1050
-F 0 "U2" H 3744 1096 50  0000 L CNN
-F 1 "LM386" H 3750 1200 50  0000 L CNN
+F 0 "U2" H 3550 1000 50  0000 L CNN
+F 1 "LM386N-4/NOPB" H 3450 1200 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 3600 1250 50  0001 C CNN
 	1    3400 1050
@@ -838,7 +761,54 @@ F 3 "" H 3000 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 2500 5050 2500
+	2600 2500 4550 2500
 Wire Wire Line
-	4250 2900 5050 2900
+	4250 2900 4550 2900
+$Comp
+L Device:R R3
+U 1 1 60D3C3AC
+P 5800 2700
+F 0 "R3" V 5800 2700 50  0000 C CNN
+F 1 "3.3K" V 5684 2700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5730 2700 50  0001 C CNN
+F 3 "~" H 5800 2700 50  0001 C CNN
+	1    5800 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3350 5950 2700
+Wire Wire Line
+	5950 3350 6250 3350
+Wire Wire Line
+	6250 2300 6250 2900
+Wire Wire Line
+	5900 2500 5900 2300
+$Comp
+L Transformer:TRANSF5 TR1
+U 1 1 60D6EE08
+P 4750 2700
+F 0 "TR1" H 4750 3081 50  0000 C CNN
+F 1 "108F" H 4750 2990 50  0000 C CNN
+F 2 "tastatur:108F" H 4750 2700 50  0001 C CNN
+F 3 "" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2500 5900 2500
+Wire Wire Line
+	4950 2900 6250 2900
+Wire Wire Line
+	4950 2700 5650 2700
+NoConn ~ 4550 2700
+Text Label 4500 2500 0    50   ~ 0
+1
+Text Label 4500 2900 0    50   ~ 0
+3
+Text Label 4950 2500 0    50   ~ 0
+6
+Text Label 4950 2900 0    50   ~ 0
+4
+Text Label 4950 2700 0    50   ~ 0
+5
 $EndSCHEMATC
