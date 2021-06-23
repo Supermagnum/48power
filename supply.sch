@@ -109,23 +109,6 @@ F 3 "9V battery holder" V 1100 4300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1250 4500 1250 5050
-$Comp
-L Transformer:TRANSF5 TR1
-U 1 1 60C979BB
-P 4600 2700
-F 0 "TR1" H 4600 3081 50  0000 C CNN
-F 1 "108F" H 4600 2990 50  0000 C CNN
-F 2 "supply:108F" H 4600 2700 50  0001 C CNN
-F 3 "" H 4600 2700 50  0001 C CNN
-	1    4600 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2900 5050 2900
-NoConn ~ 4400 2700
-NoConn ~ 4800 2700
-Wire Wire Line
-	4800 2500 5050 2500
 Wire Wire Line
 	5350 2500 5700 2500
 $Comp
@@ -649,8 +632,6 @@ pin2
 Text Notes 5500 1350 2    50   ~ 0
 pin3
 Wire Wire Line
-	2600 2500 4400 2500
-Wire Wire Line
 	3550 2950 3300 2950
 Connection ~ 3550 2950
 Wire Wire Line
@@ -791,8 +772,6 @@ F 3 "~" H 3900 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4250 2900 4400 2900
-Wire Wire Line
 	4150 2900 4250 2900
 Connection ~ 4250 2900
 Wire Wire Line
@@ -839,7 +818,7 @@ L Device:C C11
 U 1 1 60D68843
 P 4550 1050
 F 0 "C11" V 4298 1050 50  0000 C CNN
-F 1 "250uF" V 4389 1050 50  0000 C CNN
+F 1 "10pF" V 4389 1050 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4588 900 50  0001 C CNN
 F 3 "~" H 4550 1050 50  0001 C CNN
 	1    4550 1050
@@ -858,4 +837,8 @@ F 3 "" H 3000 2000 50  0001 C CNN
 	1    3000 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2600 2500 5050 2500
+Wire Wire Line
+	4250 2900 5050 2900
 $EndSCHEMATC

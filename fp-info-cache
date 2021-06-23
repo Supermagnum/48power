@@ -1,4 +1,4 @@
-19240692645965542
+875601378632181
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -301,205 +301,968 @@ battery CR-3032 coin cell vertical
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.00u_PCB
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
+3_Pin_Jumper
+
+
+0
+9
+3
+Button_Switch_Keyboard
+4pin35mmAudio
+
+
+0
+6
+6
+Button_Switch_Keyboard
+AST1109MLTRQ
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.00u_Plate
-Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u plate
+AT90USB1286_TQFP_14mm
+64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+64
+64
+Button_Switch_Keyboard
+ATMEGA32U4-AU
+
+
+0
+44
+44
+Button_Switch_Keyboard
+ArduinoProMicro
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-BackSide
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-Mini-USB
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-Mini-USB-No-Text
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-Mini-USB-ZigZag
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-TopSide
+
+
+0
+24
+24
+Button_Switch_Keyboard
+ArduinoProMicro-ZigZag
+
+
+0
+24
+24
+Button_Switch_Keyboard
+CUI_SJ-43614-SMT
+
+
+0
+4
+4
+Button_Switch_Keyboard
+C_0402
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.25u_PCB
-Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.25u PCB
+C_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.25u_Plate
-Cherry MX keyswitch, 1.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.25u plate
+Cherry-MX-Low-Profile
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.50u_PCB
-Cherry MX keyswitch, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.50u PCB
+Crystal_SMD_2520-4pin_2.5x2.0mm
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Button_Switch_Keyboard
+Crystal_SMD_3225-4pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Button_Switch_Keyboard
+D_0805
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.50u_Plate
-Cherry MX keyswitch, 1.50u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.50u plate
+D_SOD-323
+SOD-323
+SOD-323
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.75u_PCB
-Cherry MX keyswitch, 1.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.75u PCB
+D_SOD123
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_1.75u_Plate
-Cherry MX keyswitch, 1.75u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.75u plate
+D_SOD123F
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.00u_PCB
-Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.00u PCB
+Diode
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.00u_Plate
-Cherry MX keyswitch, 2.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.00u plate
+Diode-Hybrid-Back
+
+
+0
+6
+2
+Button_Switch_Keyboard
+Diode-dual
+
+
+0
+10
+2
+Button_Switch_Keyboard
+Diode-hybrid-3pad
+
+
+0
+6
+2
+Button_Switch_Keyboard
+Diode_Long
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.00u_Vertical_PCB
-Cherry MX keyswitch, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.00u vertical PCB
+Elite-C
+
+
+0
+29
+29
+Button_Switch_Keyboard
+Elite-C-ZigZag
+
+
+0
+29
+29
+Button_Switch_Keyboard
+Elite-C-castellated-24pin
+
+
+0
+24
+24
+Button_Switch_Keyboard
+Elite-C-castellated-24pin-holes
+
+
+0
+48
+24
+Button_Switch_Keyboard
+Elite-C-castellated-29pin
+
+
+0
+29
+29
+Button_Switch_Keyboard
+Elite-C-castellated-29pin-holes
+
+
+0
+58
+29
+Button_Switch_Keyboard
+Epson_TSX-3225
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Fuse_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.00u_Vertical_Plate
-Cherry MX keyswitch, 2.00u, vertical, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.00u vertical plate
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Button_Switch_Keyboard
+Header-6-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Button_Switch_Keyboard
+Header-12-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Button_Switch_Keyboard
+Header-12-Pin-ZigZag-Square
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Button_Switch_Keyboard
+ICSP-Header
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Button_Switch_Keyboard
+ICSP-Header-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Button_Switch_Keyboard
+JUMPER_SMD_2DUB
+
+
+0
+12
+2
+Button_Switch_Keyboard
+KLJ-1102
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.25u_PCB
-Cherry MX keyswitch, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.25u PCB
+Kailh-PG1350-1.5u
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1.25u
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1.25u-LED-flip
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1u
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1u-No-Clickhole
+
+
+0
+4
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1u-reversible
+
+
+0
+5
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1u-reversible-No-Clickhole
+
+
+0
+5
+4
+Button_Switch_Keyboard
+Kailh-PG1350-1u-reversible-flip
+
+
+0
+5
+4
+Button_Switch_Keyboard
+LED_3mm
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.25u_Plate
-Cherry MX keyswitch, 2.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.25u plate
+LQFP-48_7x7mm_Pitch0.5mm
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Button_Switch_Keyboard
+Low-Profile-Choc-MX
+
+
+0
+5
+4
+Button_Switch_Keyboard
+MD_Diode
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.75u_PCB
-Cherry MX keyswitch, 2.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.75u PCB
+MX-Alps-Choc-1U
+
+
+0
+8
+4
+Button_Switch_Keyboard
+MX-Alps-Choc-1U-No-Clickhole
+
+
+0
+8
+4
+Button_Switch_Keyboard
+MX-Alps-Choc-1U-NoLED
+
+
+0
+6
+2
+Button_Switch_Keyboard
+MX-Alps-Choc-1U-NoLED-Alt
+
+
+0
+6
+2
+Button_Switch_Keyboard
+MX-Alps-Choc-2U
+
+
+0
+8
+4
+Button_Switch_Keyboard
+MX-Alps-Choc-2U-StabFlip
+
+
+0
+8
+4
+Button_Switch_Keyboard
+MX-Alps_DMask
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX-Alps_FMask
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX-Alps_FMask-2u
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX-Alps_Switch_Cutout
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX-Alps_Switch_Cutout-1u_1.25u
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX-Alps_Switch_Cutout-1u_1.25u-3u-wide
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX-Alps_Switch_Cutout-1u_2u
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX-Alps_Switch_Cutout-3u-wide
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX-Quad
+MX/Alps footprint
+
+0
+8
+2
+Button_Switch_Keyboard
+MX_FMask
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX_FMask-2u
+
+
+0
+3
+1
+Button_Switch_Keyboard
+MX_FMask-2u-with-cutout
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX_FMask-with-cutout
+
+
+0
+2
+1
+Button_Switch_Keyboard
+MX_LED
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_2.75u_Plate
-Cherry MX keyswitch, 2.75u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 2.75u plate
+MX_Stabilizer_Cutout
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX_Stabilizer_Cutout-2u
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX_Switch_Cutout
+
+
+0
+0
+0
+Button_Switch_Keyboard
+MX_Switch_Mod_Cutout
+
+
+0
+0
+0
+Button_Switch_Keyboard
+Mini-USB
+
+
+0
+7
+6
+Button_Switch_Keyboard
+MountingHole
+
+
+0
+1
+0
+Button_Switch_Keyboard
+QFN-44-1EP_7x7mm_Pitch0.5mm
+UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
+QFN 0.5
+0
+60
+45
+Button_Switch_Keyboard
+RGB-6028
+
+
+0
+4
+4
+Button_Switch_Keyboard
+RGB_3528_Blue_Notch
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Button_Switch_Keyboard
+RGB_3528_Blue_Notch-MX
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Button_Switch_Keyboard
+RGB_3528_Blue_Notch-MX-Flip
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Button_Switch_Keyboard
+R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_6.25u_PCB
-Cherry MX keyswitch, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 6.25u PCB
+R_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_6.25u_Plate
-Cherry MX keyswitch, 6.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 6.25u plate
+R_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_ISOEnter_PCB
-Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch ISO enter PCB
+Resistor
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Cherry_MX_ISOEnter_Plate
-Cherry MX keyswitch, ISO Enter, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch ISO enter plate
+Resistor-Compact
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Matias_1.00u
-Matias/ALPS keyswitch, 1.00u, http://matias.ca/switches/
-Matias ALPS keyswitch 1.00u
+Resistor-Compact-1-side
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Matias_1.25u
-Matias/ALPS keyswitch, 1.25u, http://matias.ca/switches/
-Matias ALPS keyswitch 1.25u
+Resistor-Hybrid
+
+
+0
+10
+2
+Button_Switch_Keyboard
+Resistor-Hybrid-Back
+
+
+0
+6
+2
+Button_Switch_Keyboard
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Button_Switch_Keyboard
+RotaryEncoder_EC11
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Button_Switch_Keyboard
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Button_Switch_Keyboard
+SM0805D
+
+
 0
 2
 2
 Button_Switch_Keyboard
-SW_Matias_1.50u
-Matias/ALPS keyswitch, 1.50u, http://matias.ca/switches/
-Matias ALPS keyswitch 1.50u
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+Button_Switch_Keyboard
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Button_Switch_Keyboard
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+Button_Switch_Keyboard
+SOT-143B
+SOT143B
+
+0
+4
+4
+Button_Switch_Keyboard
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+Button_Switch_Keyboard
+SW_SPST_3x3
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Button_Switch_Keyboard
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Button_Switch_Keyboard
+SW_Tactile_SPST_Angled_MJTP1117
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+Button_Switch_Keyboard
+SW_Tactile_SPST_Angled_MJTP1117-no-mount
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
 0
 2
 2
 Button_Switch_Keyboard
-SW_Matias_1.75u
-Matias/ALPS keyswitch, 1.75u, http://matias.ca/switches/
-Matias ALPS keyswitch 1.75u
+SinglePad
+
+
 0
-2
+1
+1
+Button_Switch_Keyboard
+SolderJumper
+
+
+0
+4
+3
+Button_Switch_Keyboard
+SolderJumperLeft
+
+
+0
+3
+3
+Button_Switch_Keyboard
+SolderJumperPair
+
+
+0
+6
+3
+Button_Switch_Keyboard
+SolderJumperRight
+
+
+0
+3
+3
+Button_Switch_Keyboard
+SolderJumperSet
+
+
+0
+12
+6
+Button_Switch_Keyboard
+SolderJumperSets
+
+
+0
+6
 2
 Button_Switch_Keyboard
-SW_Matias_2.00u
-Matias/ALPS keyswitch, 2.00u, http://matias.ca/switches/
-Matias ALPS keyswitch 2.00u
+SolidCopper
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
 0
 2
-2
+1
 Button_Switch_Keyboard
-SW_Matias_2.25u
-Matias/ALPS keyswitch, 2.25u, http://matias.ca/switches/
-Matias ALPS keyswitch 2.25u
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
 0
-2
-2
+44
+44
 Button_Switch_Keyboard
-SW_Matias_2.75u
-Matias/ALPS keyswitch, 2.75u, http://matias.ca/switches/
-Matias ALPS keyswitch 2.75u
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
 0
-2
-2
+48
+48
 Button_Switch_Keyboard
-SW_Matias_6.25u
-Matias/ALPS keyswitch, 6.25u, http://matias.ca/switches/
-Matias ALPS keyswitch 6.25u
+TRRS-PJ-320A
+
+
 0
-2
-2
+4
+4
 Button_Switch_Keyboard
-SW_Matias_ISOEnter
-Matias/ALPS keyswitch, ISO Enter, http://matias.ca/switches/
-Matias ALPS keyswitch ISO enter
+TRRS-PJ-320A-dual
+
+
+0
+5
+4
+Button_Switch_Keyboard
+TRRS-PJ-320A-no-Fmask
+
+
+0
+8
+4
+Button_Switch_Keyboard
+TRRS-PJ-320D
+
+
+0
+4
+4
+Button_Switch_Keyboard
+TRRS_Jack
+
+
+0
+6
+6
+Button_Switch_Keyboard
+TRRS_Jack-one-sided
+
+
+0
+4
+4
+Button_Switch_Keyboard
+TRRS_Jumper
+
+
+0
+6
+6
+Button_Switch_Keyboard
+Teensy_2.0
+
+
+0
+31
+31
+Button_Switch_Keyboard
+Triple-Dual-1u-LED
+
+
+0
+21
+4
+Button_Switch_Keyboard
+Triple-Dual-1u-LED-flip
+
+
+0
+21
+4
+Button_Switch_Keyboard
+Triple-Dual-2u-LED
+
+
+0
+21
+4
+Button_Switch_Keyboard
+Triple-Dual-2u-LED-stab-flip
+
+
+0
+21
+4
+Button_Switch_Keyboard
+USB-Mini-B_ LCSC-C46398
+
+
+0
+9
+6
+Button_Switch_Keyboard
+USB-Mini-B_2leg
+
+
+0
+7
+6
+Button_Switch_Keyboard
+USB_miniB_HandSolder
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+Button_Switch_Keyboard
+VIA-0.6mm
+
+
+0
+1
+1
+Button_Switch_Keyboard
+WS2812B
+
+
+0
+4
+4
+Button_Switch_Keyboard
+breakaway-hole
+
+
+0
+0
+0
+Button_Switch_Keyboard
+breakaway-hole-big
+
+
+0
+0
+0
+Button_Switch_Keyboard
+breakaway-mousebites
+
+
+0
+0
+0
+Button_Switch_Keyboard
+solder_jumper
+
+
 0
 2
 2
@@ -51982,13 +52745,6 @@ Bourns SRU8043 SMD inductor
 2
 2
 Inductor_SMD
-L_Bourns-SRU8045A-101Y_8.0x8.0mm
-Bourns SRU8045A series SMD inductor
-Bourns SRU8045A SMD inductor
-0
-4
-4
-Inductor_SMD
 L_Bourns_SDR1806
 https://www.bourns.com/docs/Product-Datasheets/SDR1806.pdf
 Bourns SDR1806
@@ -76299,76 +77055,6 @@ rotary encoder
 0
 5
 4
-SO-239
-4248
-Würth 
-
-0
-2
-2
-SO-239
-AIAC-1812
-
-
-0
-2
-2
-SO-239
-BC2772-ND
-
-
-0
-4
-4
-SO-239
-INDUCTOR-TAP
-
-
-0
-3
-3
-SO-239
-N
-N-Type Pnl Mount Jk 2-H Solder Cup 50 Ohm horizontal
-N,connector,horizontal
-0
-3
-3
-SO-239
-N-vertical
-
-
-0
-3
-3
-SO-239
-PT10LV10
-
-
-0
-4
-4
-SO-239
-SO-239
-SO-239, vertical
-
-0
-6
-6
-SO-239
-SO-239-V
-SO-239, horizontal
-
-0
-3
-3
-SO-239
-TO-71-6
-TO-71-6
-TO-71-6
-0
-6
-6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -76733,20 +77419,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-SnapEDA Library
-CAPC2828X135N
-
-
-0
-2
-2
-SnapEDA Library
-INDRD2921W163D3810H2616P
-
-
-0
-2
-2
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -77808,125 +78480,6 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
-0
-0
-0
-Teensy
-C_1808_4520_Metric
-
-
-0
-2
-2
-Teensy
-SBC4-101-102
-SBC4-101-102
-100µH  Inductor 1A 
-0
-2
-2
-Teensy
-SO-239-pads
-
-
-0
-2
-2
-Teensy
-Teensy1.0
-11
-
-0
-27
-27
-Teensy
-Teensy1.0++
-20
-
-0
-51
-51
-Teensy
-Teensy2.0
-11
-
-0
-31
-31
-Teensy
-Teensy2.0++
-20
-
-0
-52
-52
-Teensy
-Teensy2.0-pins-headers
-20
-
-0
-52
-52
-Teensy
-Teensy30_31_32_LC
-
-
-0
-39
-38
-Teensy
-Teensy35_36
-
-
-0
-62
-62
-Teensy
-Teensy40
-
-
-0
-44
-44
-Teensy
-Teensy40_SMT
-
-
-0
-54
-54
-Teensy
-Teensy41
-
-
-0
-67
-67
-Teensy
-WQFN-16_EP_3.15x3.15_Pitch0.5mm
-16-Pin WQFN With Wettable Flanks RTE Package 
-
-0
-24
-17
-Teensy
-holes
-
-
-0
-0
-0
-Teensy
-tastatur
-
-
-0
-0
-0
-Teensy
-test
-
-
 0
 0
 0
@@ -83145,31 +83698,38 @@ varistor SIOV
 0
 2
 2
-alm
-alm
+tastatur
+PSOIC-8
 
 
 0
-0
-0
-alm
-hole-1.5mm
-
-
-0
-1
-1
-dc-
-L_Bourns-SRU8045A-101Y_8.0x8.0mm
-Bourns SRU8045A series SMD inductor
-Bourns SRU8045A SMD inductor
+9
+9
+tastatur
+SW_Cherry_MX_1.00u_PCB-LED
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
 0
 4
 4
-supply
-108F
-TRANSFORMER AUDIO 600CT/150CT
-transformer,audio
+tastatur
+SW_Cherry_MX_1.00u_PCB-NO-LED
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
+0
+2
+2
+tastatur
+SW_Cherry_MX_ISOEnter_PCB
+Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch ISO enter PCB
+0
+2
+2
+tastatur
+TO-71-6
+TO-71-6
+TO-71-6
 0
 6
 6
