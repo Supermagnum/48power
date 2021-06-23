@@ -26,4 +26,11 @@ https://raw.githubusercontent.com/Supermagnum/48power/main/dimentions.png
 Aisler PCB:
 https://aisler.net/p/QQVLMIWH
 
+The PCB board is to be mounted inside a metal box, on metal standoffs.
+Ø2mm bolts with nuts can be used.
+The components must not touch the metal box.
+The XLR cable shield must be connected to the metal box.
+No of the internal leads should at any time be connected to the metal box.
+Use a Ø4mm cable that has shield and 3 conductors.
+
 
