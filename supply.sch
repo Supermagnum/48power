@@ -122,8 +122,6 @@ F 3 "" H 4600 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 2900 5050 2900
-Wire Wire Line
-	4150 2900 4250 2900
 NoConn ~ 4400 2700
 NoConn ~ 4800 2700
 Wire Wire Line
@@ -624,8 +622,6 @@ Wire Wire Line
 Connection ~ 8500 5650
 Wire Wire Line
 	3550 3150 3550 2950
-Wire Wire Line
-	5050 1350 4250 1350
 $Comp
 L Connector:Conn_01x01_Female J1
 U 1 1 60CCEDFA
@@ -652,90 +648,26 @@ Text Notes 5500 1050 2    50   ~ 0
 pin2
 Text Notes 5500 1350 2    50   ~ 0
 pin3
-$Comp
-L Amplifier_Operational:NE5534 U2
-U 1 1 60D1700B
-P 3400 1050
-F 0 "U2" H 3744 1096 50  0000 L CNN
-F 1 "NE5534" H 3744 1005 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3450 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5534.pdf" H 3450 1200 50  0001 C CNN
-	1    3400 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 950  2600 950 
-Wire Wire Line
-	2600 950  2600 2500
 Wire Wire Line
 	2600 2500 4400 2500
-$Comp
-L Device:C C11
-U 1 1 60D41FD2
-P 3000 2750
-F 0 "C11" H 3115 2796 50  0000 L CNN
-F 1 "47uF" H 3050 2650 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 2600 50  0001 C CNN
-F 3 "~" H 3000 2750 50  0001 C CNN
-	1    3000 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 60D45884
-P 3000 2150
-F 0 "R7" H 3070 2196 50  0000 L CNN
-F 1 "100" H 3070 2105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 2150 50  0001 C CNN
-F 3 "~" H 3000 2150 50  0001 C CNN
-	1    3000 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 2950 3300 2950
-Wire Wire Line
-	3000 2950 3000 2900
 Connection ~ 3550 2950
-Wire Wire Line
-	3000 2000 3000 1700
 Wire Wire Line
 	3000 1150 3100 1150
 $Comp
 L Device:R_POT_TRIM RV1
 U 1 1 60D5425C
-P 3800 1700
-F 0 "RV1" V 3685 1700 50  0000 C CNN
-F 1 "R_POT_TRIM-10K" V 3594 1700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 1700 50  0001 C CNN
-F 3 "~" H 3800 1700 50  0001 C CNN
-	1    3800 1700
-	0    -1   -1   0   
+P 2850 950
+F 0 "RV1" V 2735 950 50  0000 C CNN
+F 1 "R_POT_TRIM-10K" V 2644 950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2850 950 50  0001 C CNN
+F 3 "~" H 2850 950 50  0001 C CNN
+	1    2850 950 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3300 1350 3300 2950
-Connection ~ 3300 2950
-Wire Wire Line
-	3300 2950 3000 2950
-Wire Wire Line
-	3000 2300 3000 2600
-Wire Wire Line
-	4250 1350 4250 2900
-Connection ~ 4250 2900
-Wire Wire Line
-	4250 2900 4400 2900
-Wire Wire Line
-	3650 1700 3000 1700
-Connection ~ 3000 1700
-Wire Wire Line
-	3000 1700 3000 1150
-Wire Wire Line
-	3800 1550 3800 1050
-Wire Wire Line
-	3800 1050 3700 1050
-Wire Wire Line
-	3800 1050 5050 1050
-Connection ~ 3800 1050
-NoConn ~ 3950 1700
 Text GLabel 3900 3800 1    50   Input ~ 0
 VCC
 Text GLabel 3300 750  1    50   Input ~ 0
@@ -811,4 +743,119 @@ $EndComp
 Wire Wire Line
 	1800 7050 1800 6900
 Connection ~ 1800 6900
+$Comp
+L Amplifier_Audio:LM386 U2
+U 1 1 60D34ED9
+P 3400 1050
+F 0 "U2" H 3744 1096 50  0000 L CNN
+F 1 "LM386" H 3750 1200 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 3600 1250 50  0001 C CNN
+	1    3400 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1150 3000 2000
+Wire Wire Line
+	3700 1050 3900 1050
+Wire Wire Line
+	2600 550  2850 550 
+Wire Wire Line
+	2850 550  2850 800 
+Wire Wire Line
+	2600 550  2600 2500
+Wire Wire Line
+	3000 950  3100 950 
+$Comp
+L power:GND #PWR05
+U 1 1 60D4A010
+P 2850 1200
+F 0 "#PWR05" H 2850 950 50  0001 C CNN
+F 1 "GND" H 2855 1027 50  0000 C CNN
+F 2 "" H 2850 1200 50  0001 C CNN
+F 3 "" H 2850 1200 50  0001 C CNN
+	1    2850 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1200 2850 1100
+$Comp
+L Device:C C12
+U 1 1 60D50897
+P 3900 1450
+F 0 "C12" V 3648 1450 50  0000 C CNN
+F 1 "0.05uF" V 3739 1450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3938 1300 50  0001 C CNN
+F 3 "~" H 3900 1450 50  0001 C CNN
+	1    3900 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 2900 4400 2900
+Wire Wire Line
+	4150 2900 4250 2900
+Connection ~ 4250 2900
+Wire Wire Line
+	4700 1350 4700 2000
+Wire Wire Line
+	4700 2000 4250 2000
+Wire Wire Line
+	4700 1350 5050 1350
+Wire Wire Line
+	4250 2000 4250 2900
+$Comp
+L Device:R R7
+U 1 1 60D5806F
+P 3900 1850
+F 0 "R7" H 3970 1896 50  0000 L CNN
+F 1 "100" H 3970 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1850 50  0001 C CNN
+F 3 "~" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1700 3900 1600
+Wire Wire Line
+	3900 1300 3900 1050
+Connection ~ 3900 1050
+Wire Wire Line
+	3900 1050 4400 1050
+$Comp
+L power:GND #PWR07
+U 1 1 60D62D4D
+P 3900 2050
+F 0 "#PWR07" H 3900 1800 50  0001 C CNN
+F 1 "GND" H 3905 1877 50  0000 C CNN
+F 2 "" H 3900 2050 50  0001 C CNN
+F 3 "" H 3900 2050 50  0001 C CNN
+	1    3900 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2050 3900 2000
+$Comp
+L Device:C C11
+U 1 1 60D68843
+P 4550 1050
+F 0 "C11" V 4298 1050 50  0000 C CNN
+F 1 "250uF" V 4389 1050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4588 900 50  0001 C CNN
+F 3 "~" H 4550 1050 50  0001 C CNN
+	1    4550 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 1050 5050 1050
+$Comp
+L power:GND #PWR06
+U 1 1 60D6B86B
+P 3000 2000
+F 0 "#PWR06" H 3000 1750 50  0001 C CNN
+F 1 "GND" H 3005 1827 50  0000 C CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
