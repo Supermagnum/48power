@@ -5,7 +5,10 @@ It uses a LM51571QRTERQ1 to boost the voltage from a 9V battery to +48 V and a H
 Datasheet for LM51571QRTERQ1 in WQFN (16) package :
 https://github.com/Supermagnum/48power/blob/main/lm51571-q1.pdf
 
-Now also with a small mono amplifyer.
+Component selection according to Texas Instruments calculator:
+https://raw.githubusercontent.com/Supermagnum/48power/main/WBSchematicXLM5157QRTERQ1.svg
+
+Now also with a small mono amplifier, with adjustable gain ( potentiometer ).
 
 Please use metal film resistors, 1% tolerance or better.
 High quality capacitors, audio grade ceramic X7R or better.
