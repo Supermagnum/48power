@@ -22,3 +22,5 @@ https://raw.githubusercontent.com/Supermagnum/48power/main/dimentions.png
 
 Aisler PCB:
 https://aisler.net/p/QQVLMIWH
+
+
