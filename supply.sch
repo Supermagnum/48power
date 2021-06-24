@@ -797,45 +797,9 @@ Text Label 4950 2900 0    50   ~ 0
 4
 Text Label 4950 2700 0    50   ~ 0
 5
-$Comp
-L Device:C C5
-U 1 1 60D4F7C0
-P 9600 4750
-F 0 "C5" H 9485 4704 50  0000 R CNN
-F 1 "100uF" H 9485 4795 50  0000 R CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9638 4600 50  0001 C CNN
-F 3 "~" H 9600 4750 50  0001 C CNN
-	1    9600 4750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 4200 8750 4200
-Wire Wire Line
-	9600 4200 9600 4600
-Wire Wire Line
-	9600 4900 9600 5650
-Wire Wire Line
-	9600 5650 8750 5650
 Connection ~ 8750 5650
-$Comp
-L Device:C C6
-U 1 1 60D627B5
-P 10200 4750
-F 0 "C6" H 10085 4704 50  0000 R CNN
-F 1 "0.1uF" H 10085 4795 50  0000 R CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10238 4600 50  0001 C CNN
-F 3 "~" H 10200 4750 50  0001 C CNN
-	1    10200 4750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 4200 10200 4200
-Connection ~ 9600 4200
 Wire Wire Line
 	10200 4900 10200 5650
-Wire Wire Line
-	10200 5650 9600 5650
-Connection ~ 9600 5650
 Wire Wire Line
 	10200 4600 10200 4200
 Wire Wire Line
@@ -852,4 +816,40 @@ Wire Wire Line
 	8550 3650 8750 3650
 Wire Wire Line
 	8050 4200 8750 4200
+$Comp
+L Device:C C6
+U 1 1 60D627B5
+P 10200 4750
+F 0 "C6" H 10085 4704 50  0000 R CNN
+F 1 "0.1uF" H 10085 4795 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10238 4600 50  0001 C CNN
+F 3 "~" H 10200 4750 50  0001 C CNN
+	1    10200 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 5650 9600 5650
+Wire Wire Line
+	9600 5650 8750 5650
+Connection ~ 9600 5650
+Wire Wire Line
+	9600 4900 9600 5650
+Wire Wire Line
+	9600 4200 10200 4200
+Wire Wire Line
+	9600 4200 8750 4200
+Connection ~ 9600 4200
+Wire Wire Line
+	9600 4200 9600 4600
+$Comp
+L Device:CP C5
+U 1 1 60D58BED
+P 9600 4750
+F 0 "C5" H 9718 4796 50  0000 L CNN
+F 1 "100uF" H 9718 4705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 9638 4600 50  0001 C CNN
+F 3 "~" H 9600 4750 50  0001 C CNN
+	1    9600 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
